@@ -46,3 +46,41 @@ body {
     transition: 0.3s;
     text-decoration: none;
 }
+
+.main-sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text-home {
+    color: #bcbac4;
+}
+
+.first-peace {
+    width: 40%;
+    position: relative;
+}
+
+.fonts {
+    font-size: 20px;
+    display: flex;
+}
+
+.fa-github {
+    position: absolute;
+    left: 380px;
+    top: 300px;
+}
+
+.fa-telegram {
+    position: absolute;
+    left: 380px;
+    top: 270px;
+}
+
+.fa-youtube {
+    position: absolute;
+    left: 380px;
+    top: 240px;
+}
