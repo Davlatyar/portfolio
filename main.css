@@ -1,5 +1,6 @@
 body {
-    background-color: #110D27;
+    /* background-color: #110D27; */
+    background-color: rgb(1, 1, 27);
     font-family: sans-serif
 }
 
@@ -12,13 +13,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .container2{
 
 
     color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .wrapper {
@@ -58,8 +59,7 @@ body {
     justify-content: center;
     margin-top: 100px;
      margin: 0 auto;
-    position: relative; /* чтобы абсолютное позиционирование внутри работало */
-    /* min-height: 100vh; */
+    position: relative;
 }
 
 .text-home {
@@ -67,14 +67,16 @@ body {
 }
 
 .first-peace {
-    width: 40%;
+    margin-left: 100px;
+    width: 50%;
+    margin-top: 70px;
 }
 
 
 .fonts {
     position: absolute;
-    left: 0;
-    top: 50%;
+    left: 28px;
+    top: 60%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -82,7 +84,7 @@ body {
   }
   
   .fonts a {
-    font-size: 24px;
+    font-size: 20px;
     color: #7b5eff;
     text-decoration: none;
     transition: transform 0.2s ease, color 0.2s ease;
@@ -91,4 +93,15 @@ body {
   .fonts a:hover {
     transform: scale(1.2);
     color: #a394ff;
+}
+
+
+.image {
+    transition: transform 0.5s ease;
+    width: 500px;
+    /* border: 1px solid white;  */
+  }
+
+.image:hover {
+    transform: scale(1.1);
   }
