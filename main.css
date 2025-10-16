@@ -14,6 +14,12 @@ body {
     color: white;
     border: 1px solid black;
 }
+.container2{
+
+
+    color: white;
+    border: 1px solid black;
+}
 
 .wrapper {
     display: flex;
@@ -51,6 +57,9 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+     margin: 0 auto;
+    position: relative; /* чтобы абсолютное позиционирование внутри работало */
+    /* min-height: 100vh; */
 }
 
 .text-home {
@@ -59,28 +68,27 @@ body {
 
 .first-peace {
     width: 40%;
-    position: relative;
 }
+
 
 .fonts {
-    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
-}
-
-.fa-github {
-    position: absolute;
-    left: 380px;
-    top: 300px;
-}
-
-.fa-telegram {
-    position: absolute;
-    left: 380px;
-    top: 270px;
-}
-
-.fa-youtube {
-    position: absolute;
-    left: 380px;
-    top: 240px;
-}
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .fonts a {
+    font-size: 24px;
+    color: #7b5eff;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  .fonts a:hover {
+    transform: scale(1.2);
+    color: #a394ff;
+  }
