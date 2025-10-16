@@ -1,0 +1,48 @@
+body {
+    background-color: #110D27;
+    font-family: sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.header-links {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.main {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+}
