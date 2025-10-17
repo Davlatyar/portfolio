@@ -123,6 +123,11 @@ section {
 
 .skill {
     width: 40px;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
 }
 
 .skills {
@@ -148,6 +153,15 @@ section {
 
 .telephone {
     display: flex;
+    margin-top: 15px;
+
+}
+
+.fa-telephone {
+    font-size: 26px;
+    color: #7b5eff;
+    padding-right:5px;
+    margin-top: 15px;
 }
 
 .fa-phone {
@@ -160,4 +174,131 @@ section {
 .fa-envelope {
     font-size: 26px;
     color: #7b5eff;
+    padding-right: 7px;
+    margin-top: 15px;
+}
+
+.email {
+    display: flex;
+    margin-top: 15px;
+}
+
+.fa-location-dot {
+    font-size: 26px;
+    color: #7b5eff;
+    padding-right: 7px;
+    margin-top: 15px;
+}
+
+.location {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.input {
+    /* border: 1px solid white; */
+    padding: 10px 10px 20px 20px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #2b2863;
+}
+
+.input1 {
+    background-color: #2b2863;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+.emailName {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.input3 {
+    padding: 10px 10px 20px 20px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #2b2863;
+    /* border: 1px solid white; */
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+
+.btn {
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn-dad{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.footerone{
+    display: flex;
+
+}
+
+.lastone {
+    margin-top: 15px;
+    display: flex;
+    /* border: 1px solid white; */
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 100px;
+    align-items: center;
+    background-color: #020208;
+
+    
+}
+
+.fonts1 {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-facebook {
+    font-size: 20px;
+}
+
+.fa-twitter {
+    font-size: 20px;
+}
+
+.fa-instagram {
+    font-size: 20px;
+}
+
+.fa-facebook:hover {
+    color: #7b5eff;
+    transition: 0.3s;
+}
+.fa-instagram:hover {
+    color: #7b5eff;
+    transition: 0.3s;
+}
+.fa-twitter:hover{
+    color: #7b5eff;
+    transition: 0.3s;
+}
+
+.Lastword {
+    background-color: #020208;
+    padding: 10px;
+}
+
+.myownimage {
+    transition: transform 0.5s ease;
+}
+
+.myownimage:hover {
+    transform: scale(1.1);
+    /* transition: 0.3s ease; */
 }
