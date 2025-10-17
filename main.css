@@ -145,3 +145,19 @@ section {
 .card:hover {
     transform: scale(1.1);
 }
+
+.telephone {
+    display: flex;
+}
+
+.fa-phone {
+    font-size: 26px;
+    color: #7b5eff;
+    padding-right:5px;
+    margin-top: 15px;
+}
+
+.fa-envelope {
+    font-size: 26px;
+    color: #7b5eff;
+}
