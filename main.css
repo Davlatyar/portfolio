@@ -304,7 +304,7 @@ section {
 }
 
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .body {
         width: 100%;
     }    
@@ -338,4 +338,4 @@ section {
         width: 22%;
     }    
 
-  }
+  } */
