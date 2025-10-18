@@ -297,3 +297,90 @@ section {
 
 
 
+@media (max-width: 600px) {
+    body {
+      padding: 8px;
+      font-size: 14px;
+    }
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .hero-section {
+      text-align: center;
+      padding: 20px 0;
+    }
+  }
+  
+
+@media (max-width: 600px) {
+    header .links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .main-sections {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .first-peace h1 {
+      font-size: 32px !important;
+    }
+  
+    .first-peace h3 {
+      font-size: 16px !important;
+    }
+  
+    .text-home p {
+      font-size: 14px;
+    }
+  
+    .second-peace img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .aboutmyself {
+      flex-direction: column;
+    }
+  
+    .myownimage {
+      width: 100% !important;
+      margin-top: 20px;
+    }
+  
+    section {
+      padding: 20px 10px;
+    }
+  
+    .text-about p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .first-peace h1 {
+      font-size: 36px !important;
+    }
+  
+    .first-peace h3 {
+      font-size: 18px !important;
+    }
+  
+    .myownimage {
+      width: 70%;
+    }
+  
+    .text-about p {
+      font-size: 16px;
+    }
+  }
+  
+  
