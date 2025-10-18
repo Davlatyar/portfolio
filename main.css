@@ -1,5 +1,4 @@
 body {
-    /* background-color: #110D27; */
     background-color: rgb(1, 1, 27);
     font-family: sans-serif;
 }
@@ -21,7 +20,6 @@ section {
     margin: 0 auto;
     color: white;
     margin-bottom: 100px;
-    /* border: 1px solid black; */
 }
 .container2{
     max-width: 1200px;
@@ -109,7 +107,6 @@ section {
 .image {
     transition: transform 0.5s ease;
     width: 500px;
-    /* border: 1px solid white;  */
   }
 
 .image:hover {
@@ -143,7 +140,6 @@ section {
 }
 
 .card {
-    /* transform: scale(1.1); */
     transition: 0.3s all;
 }
 
@@ -197,7 +193,6 @@ section {
 }
 
 .input {
-    /* border: 1px solid white; */
     padding: 10px 10px 20px 20px;
     width: 250px;
     border-radius: 15px;
@@ -223,7 +218,6 @@ section {
     width: 250px;
     border-radius: 15px;
     background-color: #2b2863;
-    /* border: 1px solid white; */
     margin-left: 40%;
     margin-top: 20px;
 
@@ -249,7 +243,6 @@ section {
 .lastone {
     margin-top: 15px;
     display: flex;
-    /* border: 1px solid white; */
     width: 50%;
     justify-content: space-around;
     margin-left: 100px;
@@ -300,7 +293,6 @@ section {
 
 .myownimage:hover {
     transform: scale(1.1);
-    /* transition: 0.3s ease; */
 }
 
 
